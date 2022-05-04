@@ -1,14 +1,20 @@
 import Button from "./button";
 import ButtonWithIcon from "./buttonWithIcon";
 
-export default function Modal({ title, subTitle, children, onCancel }) {
+export default function Modal({
+  title,
+  subTitle,
+  children,
+  onCancel,
+  onConfirm,
+}) {
   return (
     <div
       class="py-12 flex bg-gray-300 transition duration-150 ease-in-out z-10 absolute top-0 right-0 bottom-0 left-0"
       id="modal"
     >
-      <div className={"m-auto p-8 bg-white rounded-3xl w-1/3"}>
-        <div className="mb-2 flex flex-row align-center">
+      <div className={"m-auto p-8 bg-white rounded-3xl w-[35rem]"}>
+        <div className="mb-4 flex flex-row align-center">
           <ButtonWithIcon onClick={onCancel} buttonText={"Close"} />
         </div>
         <div className="mb-8 flex flex-col">
@@ -25,6 +31,7 @@ export default function Modal({ title, subTitle, children, onCancel }) {
             className={"bg-white text-black mr-2 w-2/4 "}
           />
           <Button
+            onClick={onConfirm}
             text={"New Award"}
             className={" text-white bg-black  w-2/4"}
           />
