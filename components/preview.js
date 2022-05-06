@@ -7,6 +7,8 @@ import awards1 from "../assets/icon/awards1.svg";
 import awards2 from "../assets/icon/awards3.svg";
 import awards3 from "../assets/icon/awards4.svg";
 import Divider from "./divider";
+import SelectBox from "./selectBox";
+import Input from "./input";
 
 const data = {
   projects: [
@@ -36,11 +38,10 @@ export default function Preview({ text, className, onClick }) {
         <div>
           <div className="flex flex-row justify-between items-center">
             <Image src={left} alt="left" />
-
             {data.projects.map((project, key) => {
               return (
                 <div
-                  className="rounded-xl p-3 border-2 border-solid border-sc-gray-20 flex justify-center  focus:border-red-400  "
+                  className="rounded-xl p-3 border-2 border-solid border-sc-gray-20 flex justify-center  focus:border-red-400  cursor-pointer "
                   tabindex={key}
                 >
                   <Image
@@ -52,10 +53,23 @@ export default function Preview({ text, className, onClick }) {
                 </div>
               );
             })}
-
             <Image src={right} alt="right" />
           </div>
           <Divider />
+          <div className="flex flex-row justify-between py-3">
+            <SelectBox className="p-11 mr-6" />
+            <div className="flex flex-col justify-between w-full">
+              <Input />
+              <Input />
+              <Input />
+              <Input />
+            </div>
+          </div>
+          <Button
+            //   onClick={openModal}
+            text={"Save Award"}
+            className={"bg-black text-white w-full mt-6"}
+          />
         </div>
       </div>
     </div>

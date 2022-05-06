@@ -14,7 +14,9 @@ module.exports = {
       colors: {
         "sc-gray": "#E0E0E0",
         "sc-gray-20": "#EEEEEE",
+        "sc-gray-40": "#BDBDBD",
         "sc-divider": "#F5F5F5",
+        "sc-input-bg": "#FAFAFA",
       },
     },
   },

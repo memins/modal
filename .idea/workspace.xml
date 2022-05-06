@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b867304f-5675-4d47-9ba1-b8e279fc2062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/divider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +77,7 @@
       <workItem from="1651647427107" duration="1730000" />
       <workItem from="1651649208261" duration="680000" />
       <workItem from="1651667249877" duration="343000" />
-      <workItem from="1651797547295" duration="433000" />
+      <workItem from="1651797547295" duration="598000" />
     </task>
     <servers />
   </component>
