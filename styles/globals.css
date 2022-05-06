@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 1.875rem 0;
+  font: var(--text-sm);
+  color: var(--gray-placeholder);
+  text-transform: uppercase;
+}
+
+divider::before,
+divider::after {
+  content: "";
+  display: block;
+  height: 0.0625rem;
+  background: var(--gray-light);
+  flex: auto;
+}

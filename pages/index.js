@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "../components/button";
 import Modal from "../components/modal";
+import Preview from "../components/preview";
 import SelectBox from "../components/selectBox";
 import Image from "next/image";
 import noAward from "../assets/icon/noAward.png";
@@ -50,9 +51,14 @@ function HomePage() {
           onCancel={closeModal3}
           onConfirm={openLastModal}
         >
-          <div className="flex flex-row justify-between items-center ">
-            demo
-          </div>
+          <>
+            <Preview />
+            <div className="flex flex-row justify-between items-center ">
+              <SelectBox />
+              <SelectBox />
+              <SelectBox />
+            </div>
+          </>
         </Modal>
       )}
       {modal2 && (

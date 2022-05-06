@@ -13,6 +13,8 @@ module.exports = {
       },
       colors: {
         "sc-gray": "#E0E0E0",
+        "sc-gray-20": "#EEEEEE",
+        "sc-divider": "#F5F5F5",
       },
     },
   },
