@@ -5,6 +5,7 @@ import Preview from "../components/preview";
 import SelectBox from "../components/selectBox";
 import Image from "next/image";
 import noAward from "../assets/icon/noAward.png";
+import awards from "../assets/icon/awards3.svg";
 
 function HomePage() {
   const [modal, setModal] = useState(false);
@@ -43,7 +44,7 @@ function HomePage() {
   };
 
   return (
-    <div class="flex justify-center h-screen">
+    <div className="flex justify-center h-screen">
       {modal3 && (
         <Modal
           title={"Accolades"}
@@ -54,9 +55,9 @@ function HomePage() {
           <>
             <Preview />
             <div className="flex flex-row justify-between items-center ">
-              <SelectBox />
-              <SelectBox />
-              <SelectBox />
+              <SelectBox selectedAward={awards} />
+              <SelectBox selectedAward={awards} />
+              <SelectBox selectedAward={awards} />
             </div>
           </>
         </Modal>
@@ -69,9 +70,9 @@ function HomePage() {
           onConfirm={openLastModal}
         >
           <div className="flex flex-row justify-between items-center ">
-            <SelectBox />
-            <SelectBox />
-            <SelectBox />
+            <SelectBox selectedAward={awards} />
+            <SelectBox selectedAward={awards} />
+            <SelectBox selectedAward={awards} />
           </div>
         </Modal>
       )}
@@ -96,7 +97,7 @@ function HomePage() {
         <Button
           onClick={openModal}
           text={"open modal"}
-          className={"bg-white text-black "}
+          className={"m-auto bg-white text-black "}
         />
       )}
     </div>

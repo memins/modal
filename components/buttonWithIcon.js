@@ -1,7 +1,7 @@
 import Image from "next/image";
-import close from "../assets/icon/disableclose.png";
+import close from "../assets/icon/disableclose.svg";
 
-export default function ButtonWithIcon({ buttonText, className, onClick }) {
+export default function Button({ buttonText, className, onClick }) {
   return (
     <>
       <Image src={close} alt="close" className="w-6 h-6 cursor-pointer" />

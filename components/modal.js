@@ -1,5 +1,6 @@
 import Button from "./button";
 import ButtonWithIcon from "./buttonWithIcon";
+import plus from "../assets/icon/plus.svg";
 
 export default function Modal({
   title,
@@ -10,7 +11,7 @@ export default function Modal({
 }) {
   return (
     <div
-      class="py-12 flex bg-gray-300 transition duration-150 ease-in-out z-10 absolute top-0 right-0 bottom-0 left-0"
+      className="py-12 flex bg-gray-300 transition duration-150 ease-in-out z-10 absolute top-0 right-0 bottom-0 left-0"
       id="modal"
     >
       <div className={"m-auto p-8 bg-white rounded-3xl w-[35rem]"}>
@@ -33,6 +34,7 @@ export default function Modal({
           <Button
             onClick={onConfirm}
             text={"New Award"}
+            icon={plus}
             className={" text-white bg-black  w-2/4"}
           />
         </div>
