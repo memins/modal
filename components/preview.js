@@ -59,10 +59,10 @@ export default function Preview({ text, className, onClick }) {
           <div className="flex flex-row justify-between py-3">
             <SelectBox className="p-11 mr-6" />
             <div className="flex flex-col justify-between w-full">
-              <Input />
-              <Input />
-              <Input />
-              <Input />
+              <Input placeholder="Placeholder" />
+              <Input placeholder="Example: Altın Örümcek" />
+              <Input placeholder="Write featured" />
+              <Input placeholder="S" />
             </div>
           </div>
           <Button

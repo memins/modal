@@ -3,8 +3,7 @@ export default function Input({ placeholder, className, onClick }) {
     <input
       type="text"
       placeholder={placeholder}
-      className="py-5 px-4 rounded-2xl border-2 border-solid border-sc-gray-20 focus-visible:outline-none focus:border-sc-gray-40"
-      //   className={"bg-slate-500" + className}
+      className="rounded-2xl border-2 border-solid border-sc-gray-20  py-5 px-4 bg-sc-gray-5 focus:border-sc-gray-40 focus:bg-white focus-visible:outline-none"
     />
   );
 }
