@@ -15,8 +15,8 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <Input {...args} />;
 
-export const Input = Template.bind({});
+export const scInput = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Input.args = {
+scInput.args = {
   placeholder: "placeholder",
 };
