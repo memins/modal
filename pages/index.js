@@ -44,7 +44,7 @@ function HomePage() {
   };
 
   return (
-    <div className="flex justify-center min-h-screen">
+    <div className="flex justify-center min-h-screen h-full">
       {modal3 && (
         <Modal
           title={"Accolades"}

@@ -10,7 +10,7 @@ export default function Modal({
   onConfirm,
 }) {
   return (
-    <div className="py-12 flex  bg-sc-gray w-full h-full ">
+    <div className="py-12 flex  bg-sc-gray w-full ">
       <div className={"m-auto p-8 bg-white rounded-3xl w-[35rem]"}>
         <div className="mb-4 flex flex-row align-center">
           <ButtonWithIcon onClick={onCancel} buttonText={"Close"} />
